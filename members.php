@@ -9,6 +9,6 @@ if($_SESSION['logged_in'] == true)
 }
 else
 {
-	echo "You are not logged in";
+	header("location: index.php");
 }
 ?>
